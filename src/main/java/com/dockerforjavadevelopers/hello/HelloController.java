@@ -11,5 +11,11 @@ public class HelloController {
     public String index() {
         return "Hello World\n";
     }
+    @RequestMapping("/ahte")
+    public String index() {
+        return "Ahtesham bhai lage raho\n";
+    }
+    
+    
     
 }
